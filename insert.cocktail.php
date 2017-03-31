@@ -28,7 +28,7 @@
 
 <!-- select beverage, liquor and cocktail name and join them together-->  
   <?php
-  $db = new PDO('mysql:host=db674453308.db.1and1.com; dbname=db674453308;charset=utf8', 'dbo674453308', 'Woaixiaotu520@@');
+  $db = new PDO('mysql:host=; dbname=; charset=utf8', '', '');
   $sql = "SELECT DISTINCT
   l.lid,
   b.bid,
