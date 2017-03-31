@@ -46,7 +46,7 @@
     	$search = "%";
     }
 
-    $db = new PDO('mysql:host=db674453308.db.1and1.com; dbname=db674453308;charset=utf8', 'dbo674453308', 'Woaixiaotu520@@');
+    $db = new PDO('mysql:host=; dbname=; charset=utf8', '', '');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
